@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="photo gallery">
+    <meta name="author" content="Abbi Robinson">
+    <link rel="stylesheet" href="stylesheet.css">
+	<title>Photo Gallery Assignment</title>
+</head>
+<body>
+	<header>
+		<h1>TK Photography</h1>
+		<nav>
+			<ul>
+				<li>About</li>
+				<li>Gallery</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+       <h2>About</h2>
+       <p>Hello!<br>
+        I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.
+       </p>
+       <h2>Gallery</h2>
+       <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+
+       <div class="container">
+    
+        <div class="gallery">
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Chile.png" alt="Chile">
+                <figcaption>Chile, 2001</figcaption>
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Guatemala.png" alt="Guatemala">
+                <figcaption>Guatemala, 1997</figcaption>
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Hawaii.png" alt="Hawaii">
+                <figcaption>Hawaii, 2010</figcaption>
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Iran.png" alt="Iran">
+                <figcaption>Iran, 1999</figcaption>
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Ireland.png" alt="Ireland">
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Italy.png" alt="Italy">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Moab-Desert.png" alt="Moab-Desert">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Rocky-Mountains.png" alt="Rocky-Mountains">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Switzerland.png" alt="Switzerland">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/UK.png" alt="United Kingdom">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/USA.png" alt="United States">
+            </div>
+
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/Wyoming.png" alt="Wyoming">
+            </div>
+    
+        </div>
+    
+    </div>
+
+       <h2>Contact</h2>
+       <p>Please fill out this form and I'll connect with you soon.</p>
+       
+       <form action="index.html" method="post">
+        
+        <fieldset>
+
+          <label for="name">Name:<i>Your Full Name</i></label>
+          <input type="text" id="name" name="user_name">
+
+          <label for="email">Email:<i>Enter Your Email Address</i></label>
+          <input type="email" id="mail" name="user_email">
+
+          <label for="comments">Message:<i>What Can I Help You With?</i></label>
+          <textarea id="comments" name="user_comments"></textarea>  
+
+         </fieldset>
+       
+        <button type="submit">Submit</button>
+        
+    </form>
+
+	</main>
+    
+	<footer>
+		<small>Copyright 2023 TK Photography</small>
+	</footer>
+</body>
+</html>
