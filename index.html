@@ -10,115 +10,123 @@
 	<title>Photo Gallery Assignment</title>
 </head>
 <body>
-	<header>
-		<h1>TK Photography</h1>
-		<nav>
-			<ul>
-				<li>About</li>
-				<li>Gallery</li>
-				<li>Contact</li>
-			</ul>
-		</nav>
-	</header>
+    <header>
+        <h1>TK Photography</h1>
+        <nav id="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 	
 	<main>
-       <h2>About</h2>
+        
+       <h2>
+        <a id="about">About</a>
+        </h2>
        <p>Hello!<br>
         I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.
        </p>
-       <h2>Gallery</h2>
-       <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+    
+            <h2>
+             <a id="gallery">Gallery</a>
+            </h2>
+             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
-       <div class="container">
+             <div class="container">
     
-        <div class="gallery">
+             <div class="gallery">
     
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Chile.png" alt="Chile">
-                <figcaption>Chile, 2001</figcaption>
-            </div>
-    
-            <div class="gallery-item">
+                <figcaption class="caption-1">Chile, 2001</figcaption>
+                </figure>
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Guatemala.png" alt="Guatemala">
-                <figcaption>Guatemala, 1997</figcaption>
-            </div>
+                <figcaption class="caption-2">Guatemala, 1997</figcaption>
+            </figure>
     
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Hawaii.png" alt="Hawaii">
-                <figcaption>Hawaii, 2010</figcaption>
-            </div>
+                <figcaption class="caption-3">Hawaii, 2010</figcaption>
+            </figure>
     
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Iran.png" alt="Iran">
-                <figcaption>Iran, 1999</figcaption>
-            </div>
+                <figcaption class="caption-4">Iran, 1999</figcaption>
+            </figure>
     
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Ireland.png" alt="Ireland">
-                <figcaption>Ireland, 2012</figcaption>
-            </div>
+                <figcaption class="caption-5">Ireland, 2012</figcaption>
+            </figure>
     
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Italy.png" alt="Italy">
-                <figcaption>Italy, 2015</figcaption>
-            </div>
+                <figcaption class="caption-6">Italy, 2015</figcaption>
+            </figure>
 
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Moab-Desert.png" alt="Moab-Desert">
-                <figcaption>Moab Desert, 2020</figcaption>
-            </div>
+                <figcaption class="caption-7">Moab Desert, 2020</figcaption>
+            </figure>
 
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Rocky-Mountains.png" alt="Rocky-Mountains">
-                <figcaption>Rocky Mountains, 2009</figcaption>
-            </div>
+                <figcaption class="caption-8">Rocky Mountains, 2009</figcaption>
+            </figure>
 
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Switzerland.png" alt="Switzerland">
-                <figcaption>Switzerland, 2014</figcaption>
-            </div>
+                <figcaption class="caption-9">Switzerland, 2014</figcaption>
+            </figure>
 
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/UK.png" alt="United Kingdom">
-                <figcaption>UK, 2005</figcaption>
-            </div>
+                <figcaption class="caption-10">UK, 2005</figcaption>
+            </figure>
 
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/USA.png" alt="United States">
-                <figcaption>USA, 2021</figcaption>
-            </div>
+                <figcaption class="caption-11">USA, 2021</figcaption>
+            </figure>
 
-            <div class="gallery-item">
+            <figure class="gallery-item">
                 <img class="gallery-image" src="images/Wyoming.png" alt="Wyoming">
-                <figcaption>Wyoming, 2021</figcaption>
-            </div>
+                <figcaption class="caption-12">Wyoming, 2021</figcaption>
+            </figure>
     
-        </div>
+            </div>
+        
     
     </div>
 
-       <h2>Contact</h2>
-       <p>Please fill out this form and I'll connect with you soon.</p>
-       
-       <form action="index.html" method="post">
-        
-        <fieldset>
-
-          <label for="name">Name:<i>Your Full Name</i></label>
-          <input type="text" id="name" name="user_name">
-
-          <label for="email">Email:<i>Enter Your Email Address</i></label>
-          <input type="email" id="mail" name="user_email">
-
-          <label for="comments">Message:<i>What Can I Help You With?</i></label>
-          <textarea id="comments" name="user_comments"></textarea>  
-
-         </fieldset>
-       
-        <button type="submit">Submit</button>
-        
-    </form>
-
+       <section id="contact">
+        <h2>Contact</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
+        <div class="form">
+            <form action="#">
+                <div>
+                    <label for="name">NAME</label>
+                    <input type="text" name="name" id="name" placeholder="YOUR FULL NAME">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL ADDRESS">
+                </div>
+                <div>
+                    <label for="message">MESSAGE</label>
+                    <input type="text" name="message" id="message" placeholder="WHAT CAN I HELP YOU WITH?">
+                </div>
+                <div>
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </section>
 	</main>
     
 	<footer>
