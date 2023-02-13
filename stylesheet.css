@@ -62,7 +62,6 @@ body {
 nav {
 	background-color: #000;
 	display: flex;
-	justify-content: right;
 }
 
 nav a {
